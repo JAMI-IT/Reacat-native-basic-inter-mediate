@@ -65,6 +65,7 @@ const Exercise1: React.FC = () => {
               );
             })}
             <Text>{item.owner.name}</Text>
+            <Text>HDFdj</Text>
             <Text>{item.owner.age}</Text>
           </View>
         );
