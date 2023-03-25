@@ -10,6 +10,7 @@ const User: React.FC<UserProps> = ({firstName, lastName}) => {
   return (
     <Text style={{color: 'red'}}>
       Using Props :{firstName} {lastName}
+      <Text>HEllo</Text>
     </Text>
   );
 };
